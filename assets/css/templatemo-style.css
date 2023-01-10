@@ -13,7 +13,7 @@ body {
 }
 
 #page-wraper {
-    background: url(../images/page-bg.jpg) no-repeat center center fixed;
+    background: url(../images/page-bg.png) no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -48,9 +48,11 @@ p {
 h4 {
     font-size: 26px;
     font-weight: 700;
-    color: #fff;
+    color: #ffe600;
     letter-spacing: 0.25px;
 }
+
+
 
 img {
     width: 100%;
@@ -125,8 +127,8 @@ html {
 
 .main-nav li:hover a,
 .main-nav li.active a {
-    background: #fff;
-    color: #8c363e;
+    background: #ffe600;
+    color: #000000;
 }
 
 /* Sidebar Menu */
@@ -153,7 +155,7 @@ html {
 .menu .author-content span {
     font-size: 13px;
     font-style: italic;
-    color: #fff;
+    color: #ffffff;
 }
 
 .menu .social-network {
@@ -170,15 +172,15 @@ html {
     display: inline-block;
     text-align: center;
     line-height: 40px;
-    background-color: rgba(0, 0, 0, 0.2);
-    color: #fff;
+    background-color: #ffe600;
+    color: #000000;
     font-size: 14px;
     transition: all 0.5s;
 }
 
 .menu .social-network ul li a:hover {
-    background-color: #fff;
-    color: #a43f49;
+    background-color: #000000;
+    color: #ffe600;
 }
 
 .menu .copyright-text {
@@ -223,7 +225,7 @@ html {
     left: 10%;
   -webkit-transition: -webkit-transform 233ms cubic-bezier(0, 0, 0.21, 1);
   -webkit-overflow-scrolling: touch;
-  background-color: #a43f49;
+  background-color: #00000099;
   box-sizing: border-box;
   height: 100vh;  
   max-height: 100vh !important;
@@ -241,7 +243,7 @@ html {
 }
 
 .menu-toggle {
-  color: #fff;
+  color: #ffe600;
   cursor: pointer;
   font-size: 25px;
   position: fixed;
@@ -255,8 +257,8 @@ html {
     position: fixed;
     top: 0;
     left: 0;
-    color: #a43f49;
-    background-color: #fff;
+    color: #000000;
+    background-color: #ffe600;
     width: 60px;
     height: 60px;
     text-align: center;
@@ -271,8 +273,8 @@ html {
 #menu-close {
     cursor: pointer;
     text-align: right;
-    color: #a43f49;
-    background-color: #fff;
+    color: #000000;
+    background-color: #ffe600;
     width: 100%;
     height: 60px;
     text-align: center;
@@ -308,7 +310,7 @@ html {
 .section-heading .line-dec {
     width: 60px;
     height: 3px;
-    background-color: #a43f49;
+    background-color: #ffe600;
     margin: 10px auto;
 }
 
@@ -325,8 +327,8 @@ html {
 .white-button a {
     display: inline-block;
     padding: 12px 20px;
-    background-color: #fff;
-    color: #a43f49;
+    background-color: #000000;
+    color: #ffe600;
     font-size: 13px;
     font-weight: 800;
     letter-spacing: 0.5px;
@@ -335,31 +337,9 @@ html {
 }
 
 .white-button a:hover {
-    background-color: #a43f49;
-    color: #fff;
+    background-color: #ffe600;
+    color: rgb(0, 0, 0);
 }
-
-button {
-    display: inline-block;
-    padding: 10px 20px;
-    background-color: #fff;
-    color: #a43f49;
-    font-size: 12px;
-    font-weight: 800;
-    letter-spacing: 0.5px;
-    text-transform: uppercase;
-    transition: all 0.5s;
-    border: none;
-    outline: none;
-    cursor: pointer;
-}
-
-button:hover {
-    outline: none;
-    background-color: #a43f49;
-    color: #fff;
-}
-
 
 /* Left & Right Post */
 
@@ -400,7 +380,7 @@ button:hover {
 .service-item {
     margin-bottom: 10px;
     padding: 50px;
-    background-color: rgba(250, 250, 250, 0.1);
+    background-color: rgba(255, 255, 255, 0.1);
     transition: all 0.5s;
 }
 
@@ -413,11 +393,11 @@ button:hover {
 }
 
 .service-item:hover {
-    background-color: rgba(250, 250, 250, 1);
+    background-color: rgb(124, 123, 123);
 }
 
 .service-item:hover h4 {
-    color: #1e1e1e;
+    color: #ffe600;
 }
 
 .service-item:hover p {
@@ -438,34 +418,9 @@ button:hover {
     background-image: url(../images/first-white-icon.png);
 }
 
-.service-item:hover .first-service-icon {
-    background-image: url(../images/first-main-icon.png);
-}
-
 .service-item .second-service-icon {
     background-image: url(../images/second-white-icon.png);
 }
-
-.service-item:hover .second-service-icon {
-    background-image: url(../images/second-main-icon.png);
-}
-
-.service-item .third-service-icon {
-    background-image: url(../images/third-white-icon.png);
-}
-
-.service-item:hover .third-service-icon {
-    background-image: url(../images/third-main-icon.png);
-}
-
-.service-item .fourth-service-icon {
-    background-image: url(../images/fourth-white-icon.png);
-}
-
-.service-item:hover .fourth-service-icon {
-    background-image: url(../images/fourth-main-icon.png);
-}
-
 
 /* My Work */
 
@@ -497,8 +452,8 @@ section.my-work .section-heading {
 }
 
 .isotope-toolbar input[type="radio"]:checked + span {
-    color: #a43f49;
-    border-bottom: 2px solid #a43f49;
+    color: #ffe600;
+    border-bottom: 2px solid #ffe600;
 }
 
 .isotope-box {
@@ -545,90 +500,6 @@ section.my-work .section-heading {
     background: #f7f7f7 url(//afarkas.github.io/lazysizes/assets/imgs/loader.gif) no-repeat center;
     min-height: 60px;
 }
-
-figure.snip1321 {
-  overflow: hidden;
-  text-align: center;
-  -webkit-perspective: 50em;
-  perspective: 50em;
-}
-figure.snip1321 * {
-  -webkit-box-sizing: padding-box;
-  box-sizing: padding-box;
-  -webkit-transition: all 0.2s ease-out;
-  transition: all 0.2s ease-out;
-}
-figure.snip1321 figcaption {
-  top: 50%;
-  left: 20px;
-  right: 20px;
-  position: absolute;
-  opacity: 0;
-  z-index: 1;
-}
-figure.snip1321 h4 {
-    margin-top: 15px;
-  margin-bottom: 5px;
-  color: #232323;
-}
-figure.snip1321 span {
-    font-size: 14px;
-    font-style: italic;
-    display: block;
-    color: #7a7a7a;
-}
-figure.snip1321 i {
-  position: relative!important;
-  font-size: 18px;
-  background-color: #a43f49;
-  width: 40px;
-  height: 40px;
-  display: inline-block;
-  text-align: center;
-  line-height: 40px;
-  border-radius: 5px;
-  color: #fff;
-}
-figure.snip1321:after {
-  background-color: #ffffff;
-  position: absolute;
-  content: "";
-  display: block;
-  top: 20px;
-  left: 20px;
-  right: 20px;
-  bottom: 20px;
-  -webkit-transition: all 0.4s ease-in-out;
-  transition: all 0.4s ease-in-out;
-  -webkit-transform: rotateX(-90deg);
-  transform: rotateX(-90deg);
-  -webkit-transform-origin: 50% 50%;
-  -ms-transform-origin: 50% 50%;
-  transform-origin: 50% 50%;
-  opacity: 0;
-}
-figure.snip1321 a {
-  left: 0;
-  right: 0;
-  top: 0;
-  bottom: 0;
-  z-index: 1;
-}
-figure.snip1321:hover figcaption,
-figure.snip1321.hover figcaption {
-  -webkit-transform: translateY(-50%);
-  transform: translateY(-50%);
-  opacity: 1;
-  -webkit-transition-delay: 0.2s;
-  transition-delay: 0.2s;
-}
-figure.snip1321:hover:after,
-figure.snip1321.hover:after {
-  -webkit-transform: rotateX(0);
-  transform: rotateX(0);
-  opacity: 0.9;
-}
-
 
 /* Contact Me */
 

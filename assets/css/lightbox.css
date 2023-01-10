@@ -201,3 +201,24 @@ html.lb-disable-scrolling {
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
   opacity: 1;
 }
+
+
+* {box-sizing: border-box}
+
+.skills {
+  text-align: right;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: rgb(0, 0, 0);
+}
+
+.html {width: 40%; background-color: #ffe600;}
+.css {width: 40%; background-color: #ffe600;}
+.wordpress {width: 50%; background-color: #ffe600;}
+.golang {width: 20%; background-color: #ffe600;}
+
+.Golang{
+  margin-top: -2%;
+  width: 30%;
+}
+
